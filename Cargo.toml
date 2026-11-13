@@ -1,0 +1,15 @@
+[package]
+name = "zbody-vector"
+version = "0.1.0"
+edition = "2021"
+description = "Zbody Vector —— 基于 egui 的极简矢量图形编辑器"
+
+[dependencies]
+eframe = "0.31"
+image = { version = "0.25.10", default-features = false, features = ["png"] }
+kurbo = "0.13.1"
+rfd = "0.15"
+svg = "0.18"
+
+[build-dependencies]
+embed-resource = "3.0.12"
